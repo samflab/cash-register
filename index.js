@@ -38,7 +38,7 @@ function generateCash() {
         }
         updateTable(returnArr);
         returnDiv.classList.remove("hidden");
-        returnText.innerHTML=" ";
+        resultText.innerHTML=" ";
       } else {
         returnDiv.classList.add("hidden");
         resultText.innerText = `Cash given by customer is less ${
